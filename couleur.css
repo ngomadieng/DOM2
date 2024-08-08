@@ -1,0 +1,34 @@
+body{
+
+    background: rgb(229, 228, 227);
+    display:grid;
+    place-items: center;
+}
+.container{
+
+    display:flex;
+    flex-direction: column;
+    margin: 80px;
+    align-items: center;
+
+}
+#color-box{
+
+    width: 275px;
+    height: 275px;
+    background: rgb(3, 38, 233);
+    border-radius: 10px;
+   
+
+}
+#change-color-btn{
+    margin: 15px;
+    width: 50%;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: azure;
+
+}
